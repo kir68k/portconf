@@ -1,0 +1,15 @@
+CC="gcc"
+CXX="g++"
+
+CFLAGS="-O3 -march=x86-64-v3 -flto -maes -pipe"
+CXXFLAGS="${CFLAGS}"
+LDFLAGS="-Wl,-O1 -Wl,--as-needed -Wl,-z,pack-relative-relocs"
+
+# CHOST here is x86_64-pc-linux-gnu
+AR="${CHOST}-ar"
+NM="${CHOST}-nm"
+RANLIB="${CHOST}-ranlib"
+STRIP="${CHOST}-strip"
+OBJCOPY="${CHOST}-objcopy"
+OBJDUMP="${CHOST}-objdump"
+READELF="${CHOST}-readelf"

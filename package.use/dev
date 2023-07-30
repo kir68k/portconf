@@ -1,0 +1,5 @@
+dev-lang/rust		nightly
+dev-util/electron       -system-ffmpeg -screencast -hevc -gtk4 ungoogled
+sys-devel/llvm          binutils-plugin
+
+acct-user/git		gitea

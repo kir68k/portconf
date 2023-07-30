@@ -1,0 +1,15 @@
+net-mail/dovecot                mysql sieve managesieve # sieve + managesieve = pigeonhole
+mail-client/roundcube           mysql
+mail-filter/amavisd-new         mysql clamav dkim rspamd rspamd-https spamassassin
+app-antivirus/clamav            experimental
+mail-filter/spamassassin        mysql
+www-apps/postfixadmin           mysql
+mail-mta/postfix                mysql berkdb dovecot-sasl
+mail-filter/opendkim            berkdb ldap sasl
+dev-libs/cyrus-sasl             -mysql # fails to compile, I use mariadb, maybe that's why.
+dev-libs/openssl                tls-compression weak-ssl-ciphers ktls rfc3779 sctp
+
+dev-lang/php                    mysql mysqli exif pdo intl curl cli gd truetype webp ldap cgi sharedmem sodium imap fpm
+app-eselect/eselect-php         fpm
+
+dev-perl/DBD-mysql              -mysql mariadb

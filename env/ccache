@@ -1,0 +1,3 @@
+# FIXME Is this even the correct way?
+FEATURES="${FEATURES} ccache"
+CCACHE_DIR="/var/cache/ccache"

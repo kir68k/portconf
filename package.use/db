@@ -1,0 +1,2 @@
+dev-db/mariadb      tcmalloc profiling innodb-snappy numa
+dev-db/postgresql   llvm lz4 uuid

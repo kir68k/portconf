@@ -1,0 +1,3 @@
+# Required by amavisd-new
+app-arch/lha lha
+app-arch/unrar unRAR # eww...

@@ -1,0 +1,6 @@
+# [-Wimplicit-function-declaration] triggered
+sys-devel/bin86 gcc-lto
+sys-devel/dev86 gcc-lto
+
+# Does not build using libcxx
+dev-util/gengetopt gcc-lto

@@ -1,0 +1,3 @@
+dev-util/electron   ccache
+dev-lang/zig        gcc-nolto   # Doesn't compile no matter what >.>
+app-editors/neovim  gcc-lto    # With clang it randomly says `libunwind: __unw_add_dynamic_fde: bad fde: FDE is really a CIE`

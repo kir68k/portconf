@@ -1,0 +1,17 @@
+*/*::wayland-desktop			**
+
+gui-apps/swww				**
+gui-apps/eww				**
+#gui-wm/hyprland				**
+#gui-libs/xdg-desktop-portal-hyprland	**
+
+# Below entry is sexperimental
+dev-qt/*				**
+
+#dev-qt/qtbase				**
+#dev-qt/qtwayland			**
+#dev-qt/qtdeclarative			**
+#dev-qt/qtshadertools			**
+
+x11-libs/libdrm				**
+gui-libs/wlroots			**

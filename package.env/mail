@@ -1,0 +1,17 @@
+app-arch/zoo                gcc-lto
+app-arch/arj		        gcc-lto
+app-arch/p7zip		        gcc-lto
+dev-perl/Net-IDN-Encode     gcc-lto
+app-admin/gam-server        gcc-lto
+mail-filter/opendkim        gcc-ld
+sys-libs/db                 clang-ld
+mail-client/thunderbird     rust-default # mozbuild.configure.options.InvalidOptionError: RUSTFLAGS takes 1 value
+
+##############################################################################
+# THIS IS REQUIRED FOR Net-IDN-Encode TO COMPILE.
+# If not using this env, Net-IDN-Encode cries
+# `cc1: error: unrecognized argument to '-flto=' option: 'thin'/'full'`
+# Perl itself has to be built using `-flto` or no LTO at all
+# for the Net-IDN-Encode package to compile.
+###############################################################################
+dev-lang/perl		clang-fatlto

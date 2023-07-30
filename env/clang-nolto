@@ -1,0 +1,10 @@
+CC="clang"
+CXX="clang++"
+AR="llvm-ar"
+NM="llvm-nm"
+RANLIB="llvm-ranlib"
+STRIP="llvm-strip"
+OBJCOPY="llvm-objcopy"
+
+CFLAGS="-O3 -march=x86-64-v3 -maes -pipe"
+CXXFLAGS="${CFLAGS} -stdlib=libc++"

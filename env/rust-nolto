@@ -1,0 +1,1 @@
+RUSTFLAGS="-Ctarget-cpu=x86-64-v3 -Copt-level=3 -Cembed-bitcode=yes -Cstrip=symbols -Clink-arg=-Wl,-z,pack-relative-relocs"
