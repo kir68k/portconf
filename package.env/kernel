@@ -1,0 +1,1 @@
+sys-kernel/gentoo-kernel-bin    gcc-lto # `fixdep.o: file not recognized: file format not recognized` when using Clang
