@@ -1,9 +1,9 @@
 */*::wayland-desktop                    **
 
-gui-apps/swww				            **
-gui-apps/eww				            **
-#gui-wm/hyprland				        **
-#gui-libs/xdg-desktop-portal-hyprland	**
+gui-apps/swww                           **
+gui-apps/eww                            **
+#gui-wm/hyprland                        **
+#gui-libs/xdg-desktop-portal-hyprland   **
 
 # Below entry is sexperimental
 dev-qt/*                    **

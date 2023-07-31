@@ -1,4 +1,4 @@
-media-fonts/noto		cjk
-media-libs/libvpx		postproc
-www-client/librewolf		hwaccel
-www-client/ungoogled-chromium	-system-ffmpeg -hevc
+media-fonts/noto                cjk
+media-libs/libvpx               postproc
+www-client/librewolf            hwaccel
+www-client/ungoogled-chromium   -system-ffmpeg -hevc

@@ -1,6 +1,6 @@
 app-arch/zoo                gcc-lto
-app-arch/arj		        gcc-lto
-app-arch/p7zip		        gcc-lto
+app-arch/arj                gcc-lto
+app-arch/p7zip              gcc-lto
 dev-perl/Net-IDN-Encode     gcc-lto
 app-admin/gam-server        gcc-lto
 mail-filter/opendkim        gcc-ld

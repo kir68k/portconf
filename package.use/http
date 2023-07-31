@@ -1,2 +1,2 @@
-www-servers/nginx	http3 libatomic
-dev-libs/apr-util -berkdb
+www-servers/nginx       http3 libatomic
+dev-libs/apr-util       -berkdb
