@@ -1,3 +1,5 @@
-dev-lang/rust		**
-sys-devel/mold		**
+dev-lang/rust       **
+virtual/rust        **
+
+sys-devel/mold      **
 app-editors/neovim  **

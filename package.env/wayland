@@ -1,2 +1,2 @@
-gui-wm/hyprland         gcc-lto
-media-video/pipewire    gcc-lto
+=gui-wm/hyprland-0.27.2-r1::gentoo      gcc-lto
+media-video/pipewire                    gcc-lto

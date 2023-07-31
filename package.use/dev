@@ -1,5 +1,5 @@
-dev-lang/rust		nightly
-dev-util/electron       -system-ffmpeg -screencast -hevc -gtk4 ungoogled
+dev-lang/rust           nightly rust-analyzer rust-src system-llvm
+dev-util/electron       -system-ffmpeg -screencast -hevc -gtk4 ungoogled # Does not build with system-ffmpeg, please don't enable it
 sys-devel/llvm          binutils-plugin
 
-acct-user/git		gitea
+acct-user/git           gitea
