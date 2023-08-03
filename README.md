@@ -7,3 +7,5 @@ Git branches in this repository are based on the hostname of a machine, e.g. if 
 Current branches:
 - `relativity` (stream)
     - Profile: `llvm-systemd-desktop` from KRXT_portlay <sub>[tea](https:///tea.krxt.dev/kir68k/KRXT_portlay) | [ice](https://codeberg.org/kir68k/KRXT_portlay)</sub>
+- `mobility`
+    - Profile: `llvm-systemd-desktop` from KRXT_portlay <sub>[tea](https:///tea.krxt.dev/kir68k/KRXT_portlay) | [ice](https://codeberg.org/kir68k/KRXT_portlay)</sub>

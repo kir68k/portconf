@@ -1,1 +1,3 @@
+# I feel like gtk devs don't like Clang restrictions...
 gui-libs/gtk    gcc-ld
+x11-libs/wxGTK  gcc-lto
