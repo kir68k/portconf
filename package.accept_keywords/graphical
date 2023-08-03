@@ -1,3 +1,4 @@
-x11-misc/ly             **
-app-misc/ckb            **
-x11-terms/alacritty     **
+x11-misc/ly                            **
+x11-terms/alacritty                    **
+media-libs/gmmlib                      **
+#media-libs/libva-intel-media-driver    **

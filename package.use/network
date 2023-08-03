@@ -1,2 +1,3 @@
 dev-python/dnspython    dnssec
 www-servers/caddy       filecaps
+net-misc/networkmanager -lto # package.env seems to be ignored in some stages, so disabling lto useflag, but `gcc-lto` CFLAGS still apply, so it uses LTO anyway...?

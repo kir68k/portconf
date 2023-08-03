@@ -1,1 +1,2 @@
-sys-apps/systemd    elfutils
+sys-apps/systemd    cryptsetup elfutils homed
+sys-auth/pambase    homed
