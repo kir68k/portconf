@@ -1,0 +1,3 @@
+# Putting this in wayland and not graphical
+# because this doesn't matter for X11 or whatever else
+=gui-libs/gtk-4.11.4::gentoo
